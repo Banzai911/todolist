@@ -1,0 +1,40 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "banzai911",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Banzai911/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Banzai911/todolist/issues"
+  },
+  "homepage": "https://github.com/Banzai911/todolist#readme",
+  "description": "web app todolist"
+}
