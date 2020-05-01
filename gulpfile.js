@@ -75,7 +75,7 @@ function scripts() {
     //Удаляем все файлы в папке js
     del(['dist/js/*']);
     return gulp.src(jsFiles)
-        .pipe(concat('script.js'))
+        .pipe(concat('main.js'))
         //Минификация JS
         .pipe(uglify({
             toplevel: true

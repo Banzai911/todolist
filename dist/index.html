@@ -8,24 +8,25 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!--    <link rel="icon" href="img/favicon.ico" type="image/x-icon">-->
 	<!--    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
-	<script src="./dist/js/main.js"></script>
-	<title>My ToDo list</title>
+
+	<title>My ToDo list </title>
 </head>
 <body>
 <section class="app">
 	<div class="container">
 		<h1 class="app__title">TODO list webapp</h1>
-		<label for="" class="add-task__label">
-			<input type="text" class="add-task">
-			<button class="add-task__button">Add task</button>
+		<label for="input" class="add-task__label" >
+			<input type="text" class="add-task" id="input">
+			<button class="add-task__button" >Add task</button>
 		</label>
 		<div class="tasks__wrapper">
 		</div>
 		<ul class="tasks__list">
-			<li class="tasks__item">Задача №1</li>
-			<li class="tasks__item">Задача №2</li>
+			<li class="task__item">Задача №1</li>
+			<li class="task__item">Задача №2</li>
 		</ul>
 	</div>
 </section>
+<script src="./js/main.js"></script>
 </body>
 </html>
